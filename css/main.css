@@ -5,14 +5,6 @@ body {
   background: #FFFFFF;
 }
 
-/* .logo-image{
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-top: -6px;
-} */
-
 /* Colors */
 .husky-purple {
   color: #4b2e83 !important;
@@ -234,7 +226,8 @@ nav {
 }
 
 .navbar-inverse {
-  background: #4b2e83;
+  /* background: #4b2e83; */
+  background-image: url(/img/glacier_ice.jpg);
 }
 
 .navbar-brand {
