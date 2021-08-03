@@ -166,7 +166,7 @@ nav {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #4b2e83;
+  /* color: #4b2e83; */
   font-weight: 500;
   background-image: url(/img/glacier_ice.jpg);
 }
