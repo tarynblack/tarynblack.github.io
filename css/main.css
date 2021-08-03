@@ -5,13 +5,16 @@ body {
   background: #FFFFFF;
 }
 
-/* Colors */
-.husky-purple {
-  color: #4b2e83 !important;
+.glacier-blue {
+  color: #416A9F !important;
+}
+
+.iceberg {
+  color: #8BA9D0 !important;
 }
 
 #badge-more {
-  background-color: #1585cf;
+  background-color: #8BA9D0;
   color: white;
   cursor: pointer;
 }
@@ -38,7 +41,7 @@ body {
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", Helvetica, sans-serif;
-  color: #4b2e83;
+  color: #416A9F;
   font-weight: 500;
 }
 
@@ -62,7 +65,7 @@ h4, h5, h6 {
 .panel-heading h5 {
   font-style: italic;
   font-weight: 500;
-  color: #1585cf !important;
+  color: #8BA9D0 !important;
 }
 
 #projects .panel-heading h5 {
@@ -121,20 +124,20 @@ blockquote footer {
 
 /* Links */
 #main-container a {
-  color: #1585cf;
+  color: #8BA9D0;
   font-weight: 500;
 }
 
 #main-container a:hover {
-  color: #1585cf;
-  border-bottom: 1px dashed #1585cf;
+  color: #8BA9D0;
+  border-bottom: 1px dashed #8BA9D0;
   text-decoration: none;
   padding-bottom: 2px;
 }
 
 /* Contact info area, index.html page ------------------------------------------------- */
 #title {
-  color: #4b2e83;
+  color: #416A9F;
   margin-top: 2rem;
   font-weight: 600;
   font-size: 1.4rem;
@@ -158,7 +161,7 @@ nav {
 }
 
 .navbar-default .navbar-nav>li>a {
-  /* color: #4b2e83; */
+  /* color: #416A9F; */
   font-weight: 500;
   background-image: url(/img/glacier_ice.jpg);
 }
@@ -171,7 +174,7 @@ nav {
 .navbar-inverse .navbar-nav>li>a:focus {
   background: white !important;
   border-radius: 1px;
-  color: #4b2e83 !important;
+  color: #416A9F !important;
 }
 
 .navbar-default .navbar-nav>li>a:active {
@@ -226,13 +229,13 @@ nav {
 }
 
 .navbar-inverse {
-  /* background: #4b2e83; */
+  /* background: #416A9F; */
   background-image: url(/img/glacier_ice.jpg);
 }
 
 .navbar-brand {
   font-size: 2.15rem !important;
-  font-weight: 500;
+  font-weight: 700;
   color: white !important;
 }
 
@@ -243,6 +246,7 @@ nav {
 
 .navbar-inverse .navbar-nav>li>a {
   color: white;
+  font-weight: 400;
 }
 
 .navbar {
@@ -301,14 +305,14 @@ nav {
 
 #link-to-docs,
 #link-to-teaching-philosophy {
-  color: #1585cf;
+  color: #8BA9D0;
 }
 
 #link-to-docs:hover,
 #link-to-docs:active,
 #link-to-docs:visited,
 #link-to-docs:focus {
-  border: 1px solid #1585cf !important;
+  border: 1px solid #8BA9D0 !important;
   padding-bottom: 6px !important;
   background: transparent !important;
 }
@@ -350,7 +354,7 @@ footer {
 }
 
 .social-icons li a {
-  color: #1585cf;
+  color: #8BA9D0;
 }
 
 .social-icons li a:hover {
@@ -494,7 +498,7 @@ dd {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #1585cf;
+  background-color: #8BA9D0;
   color: white;
   padding: 12px 6px 12px 6px;
   border-radius: 4px 0 0 4px;
@@ -503,6 +507,6 @@ dd {
 }
 
 #topper:hover {
-  background-color: #1585cf;
+  background-color: #8BA9D0;
   opacity: .8;
 }
