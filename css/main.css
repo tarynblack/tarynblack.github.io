@@ -5,13 +5,13 @@ body {
   background: #FFFFFF;
 }
 
-.logo-image{
+/* .logo-image{
   width: 46px;
   height: 46px;
   border-radius: 50%;
   overflow: hidden;
   margin-top: -6px;
-}
+} */
 
 /* Colors */
 .husky-purple {
@@ -168,6 +168,7 @@ nav {
 .navbar-default .navbar-nav>li>a {
   color: #4b2e83;
   font-weight: 500;
+  background-image: url(/img/glacier_ice.jpg);
 }
 
 .nav .montserrat:hover,
